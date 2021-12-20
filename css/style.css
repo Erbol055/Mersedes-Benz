@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+img {
+    width: 100%;
+}
+.img-logo {
+    max-width: 148px;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row {
+    margin: 0 20px 0;
+}
+.about-info {
+    margin-right: 40px;
+    max-width: 40%;
+}
+.img-info {
+    max-width: 60%;
+    text-align: center;
+}
+h2 {
+    margin: 50px 0 5px;
+
+}
+.flex-auto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.buy {
+background-color: #F9CD32;
+text-decoration: none;
+padding: 10px 20px;
+color: red;
+border-radius: 20px;
+}
+footer {
+background: #C4C4C4;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+
+ h4 {
+     font-size: 15px;
+     max-width: 25%;
+     margin: 0 10px;
+ }
+.img-inf {
+    padding: 20px;
+}
+.img-info:hover {
+     transform: scale(1.2,1.2);
+     transition: all ease-in-out 0.3s;
+}
